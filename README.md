@@ -33,8 +33,8 @@ npm install && npm run build
 cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
-php artisan serve
 php artisan storage:link
+php artisan serve
 ```
 
 Open:
